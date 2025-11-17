@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Finanzas Personales - App</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f4f4f4; color: #333; }
+    h2 { background: #2c7c31; color: #fff; margin: 0; padding: 15px; }
+    h3, h4 { color: #2c7c31; }
+    form, .table-container { background: #fff; padding: 15px; margin: 15px; border: 1px solid #ddd; border-radius: 5px; box-shadow: 0 2px 3px rgba(0,0,0,0.1); }
+    label { display: block; margin: 8px 0 4px; font-size: 0.9em; }
+    input, select, button { padding: 7px; font-size: 1em; width: 100%; box-sizing: border-box; }
+    button { background: #2c7c31; color: #fff; border: none; border-radius: 3px; cursor: pointer; margin-top: 10px; }
+    button:hover { background: #256527; }
+    .container { display: flex; flex-wrap: wrap; }
+    .left-column { flex: 1 1 300px; max-width: 400px; }
+    .right-column { flex: 2 1 300px; padding-right: 15px; }
+    #resumen-rapido { display: flex; flex-wrap: wrap; gap: 10px; margin: 10px 0; }
+    .resumen-item { background: #f0f8f5; flex: 1 1 45%; padding: 10px; border: 1px solid #cce5dc; border-radius: 5px; }
+    .resumen-item p { margin: 5px 0; font-weight: bold; font-size: 0.9em; }
+    .resumen-item span { font-weight: normal; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.9em; }
+    th, td { text-align: left; padding: 8px; border-bottom: 1px solid #eee; }
+    th { background: #e9f5ee; font-weight: bold; }
+    tr:hover td { background: #f5fdf9; }
+    em { color: #888; }
+    @media(max-width: 768px) {
+      .container { flex-direction: column; }
+      .left-column, .right-column { max-width: none; }
+    }
+    @media(max-width: 600px) {
+      .table-container { overflow-x: auto; }
+      table { min-width: 600px; }
+    }
+  </style>
+</head>
+<body>
+  <h2>💰 Aplicación Finanzas Personales</h2>
+  <p>Versión funcional inicial. Próximamente incluirá formularios, cálculos y almacenamiento.</p>
+</body>
+</html>
